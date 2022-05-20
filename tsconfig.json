@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "lib": ["ESNext", "DOM"],
+    "allowJs": true,
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "types": ["jest"],
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "target": "ES6"
+  },
+  "include": ["src/**/*.ts"]
+}
