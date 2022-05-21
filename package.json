@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "author": "Scott Morse",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "rm -rf ./build || true && npx webpack"
   },
   "dependencies": {
     "jest": "^28.1.0",
