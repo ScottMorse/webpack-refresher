@@ -1,1 +1,3 @@
-console.log("entry2");
+import React from "react";
+
+console.log(React);

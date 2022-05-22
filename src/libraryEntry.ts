@@ -1,1 +1,1 @@
-export const LIBRARY_NAME = "test-library";
+module.exports = { LIBRARY_NAME: "test-library" };
